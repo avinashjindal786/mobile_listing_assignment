@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "953249119532",
+    "project_id": "mobile-listing-abb51",
+    "storage_bucket": "mobile-listing-abb51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953249119532:android:91b32e907ffc1285628089",
+        "android_client_info": {
+          "package_name": "com.example.mobile_listing_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953249119532-b2gk6grbr7f4lkleasnm63ut0v5g47sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8eIN1qsn_RpXu_H0TgiPKPnx1fn3e5ZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953249119532-b2gk6grbr7f4lkleasnm63ut0v5g47sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
