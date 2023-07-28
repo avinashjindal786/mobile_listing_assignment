@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_listing_app/UI/home/home_categories/best_dead_list_widget.dart';
+import 'package:mobile_listing_app/UI/home/home_categories/best_deal_list_widget.dart';
 import 'package:mobile_listing_app/UI/home/home_categories/brand_widget.dart';
 import 'package:mobile_listing_app/UI/home/home_view_model.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
@@ -181,21 +181,22 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ],
                   )
-                : Row(children: [
-                    GestureDetector(
-                        onTap: () {
-                          model.changeSearchOption(true);
-                        },
-                        child: Icon(
-                          Icons.search,
-                          color: COLOR_CONST.BLACK,
-                          size: 25,
-                        )),
-                    const SizedBox(
-                      width: 8,
-                    ),
-                    Text('Search with make and model ......', style: FONT_CONST.MEDIUM_BLACK2),
-                  ]),
+                : InkWell(
+                    onTap: () {
+                      model.changeSearchOption(true);
+                    },
+                    child: Row(children: [
+                      Icon(
+                        Icons.search,
+                        color: COLOR_CONST.BLACK,
+                        size: 25,
+                      ),
+                      const SizedBox(
+                        width: 8,
+                      ),
+                      Text('Search with make and model ......', style: FONT_CONST.MEDIUM_BLACK2),
+                    ]),
+                  ),
           )
         ],
       ),
